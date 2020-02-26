@@ -65,7 +65,7 @@ namespace StringAnalyzer
 				{
 					if (results.ContainsKey(word))
 					{
-						results[word] = results[word] + 1;
+						results[word]++;
 					}
 					else
 					{
@@ -96,7 +96,7 @@ namespace StringAnalyzer
 
 					if (results.ContainsKey(wordLength))
 					{
-						results[wordLength] = results[wordLength] + 1;
+						results[wordLength]++;
 					}
 					else
 					{
