@@ -32,7 +32,7 @@ namespace StringAnalyzer
             Console.Write("Please input the string you wish to analyze: ");
             string text = Console.ReadLine();
 
-            if (text.Length == 0)
+            if (string.IsNullOrEmpty(text) || string.IsNullOrWhiteSpace(text))
             {
                 GetInputString();
             }
